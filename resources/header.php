@@ -8,8 +8,13 @@
 
 <script>
   function current_tab(){
-      if (current == "home") {
-        document.getElementById("home_button").className = "in_use";
+      switch (current) {
+          case "home":
+            document.getElementById("home_button").className = "in_use";
+            break;
+          case "login":
+            document.getElementById("login_button").className = "in_use";
+            break;
       }
   }
 </script>
