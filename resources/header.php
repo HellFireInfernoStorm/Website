@@ -10,7 +10,6 @@
   function current_tab(){
       if (current == "home") {
         document.getElementById("home_button").className = "in_use";
-        document.getElementById("topic").innerHTML = "New Stuff";
       }
   }
 </script>
