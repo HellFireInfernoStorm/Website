@@ -10,7 +10,10 @@
 
 <body style="background-color: #000">
 
-  <?php include 'resources/header.php'; ?>
+  <?php 
+    $current = "home";
+    include 'resources/header.php'; 
+  ?>
 
   <div class="home_body">
     <h1 id="topic">New Arrivals</h1>
