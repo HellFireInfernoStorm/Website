@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+/* style header*/
+#topic{
+  font-family: Audiowide;
+  color: white;
+  text-align: center;
+}
+
+#topic:hover {
+  color: #00f200;
+}
+
+/* centers everything */
+.home_body {
+  margin: auto;
+  width: 80%;
+}
+
+/* create and style boxes for links */
+.home_links a {
+  /* makes the box */
+  display: inline-block;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #00f200;
+  background-color: white;
+  padding: 75px 75px;
+  margin: 25px 25px;
+  
+  
+  /* styles the text */
+  color: black;
+  text-decoration: none;
+  font-family: Shadows Into Light;
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+
+/* styles hover over links */
+.home_links a:hover {
+  color: #00f200;
+  padding: 100px 100px;
+  margin: 0px 0px;
+}

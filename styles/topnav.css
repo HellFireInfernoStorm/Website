@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+/* Style the top nav bar */
+.topnav {
+  background-color: black;
+  overflow: auto;
+}
+
+/* Style the tabs */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Permanent Marker;
+}
+
+/* Style the current tab */
+.topnav a.in_use {
+  background-color: #00f200;
+  color: black;
+}
+
+/* Style of tab when u hover */
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+/* Style of a tab when u click it*/
+.topnav a:active {
+  background-color: #00f200;
+  color: black;	
+}
+
+/* Style the login button */
+.topnav #login_button {
+  float: right;
+}
