@@ -8,21 +8,18 @@
   <link rel="stylesheet" href="../styles/login.css">
 </head>
 
-<body style="background-color: #000">
+<body style="background-color: #000;" onload="current_tab()">
 
-  <!-- Initialize the variable for highlighting current page in navbar -->
   <script>
     var current = "login";
   </script>
 
-  <!-- Import navbar(header.php)-->
   <?php include '../resources/header.php'; ?>
 
-  <div class="form">
-    <form>
-    </form>
-    <a href="" id="register">Register</a>
-  </div>
-</body>
+  <h1 id="topic">Login</h1>
 
+  <p>Don't have an account?</p>
+  <a href="register.php">Create an account</a>
+
+</body>
 </html>

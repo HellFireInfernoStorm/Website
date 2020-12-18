@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 
-/* centers everything */
-.home_body {
-  margin: auto;
-  width: 100%;
-}
-
 /* style header*/
 #topic{
   font-family: Audiowide;

@@ -1,5 +1,5 @@
 <nav class="topnav">
-    <a id="home_button" href="../index.php">Home</a>
+    <a id="home_button" href="../home.php">Home</a>
     <a href="">MenuItem</a>
     <a href="">MenuItem</a>
     <a href="">MenuItem</a>
@@ -15,6 +15,10 @@
             case "login":
                 document.getElementById("login_button").className = "in_use";
                 break;
+            case "register":
+                document.getElementById("login_button").className = "in_use";
+                document.getElementById("login_button").innerHTML = "Register";
+                document.getElementById("login_button").style.pointerEvents = "none";
         }
     }
 </script>
