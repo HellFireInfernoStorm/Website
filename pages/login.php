@@ -18,10 +18,10 @@
   <!-- Import navbar(header.php)-->
   <?php include '../resources/header.php'; ?>
 
-  <div class="login_form">
+  <div class="form">
     <form>
     </form>
-    <a href="" id="register"><button type="button"> Register </button></a>
+    <a href="" id="register">Register</a>
   </div>
 </body>
 
