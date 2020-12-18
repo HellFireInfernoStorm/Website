@@ -8,13 +8,7 @@
 
 <body style="background-color: #000">
 
-  <div class="topnav">
-    <a href="../index.php">Home</a>
-    <a href="">MenuItem</a>
-    <a href="">MenuItem</a>
-    <a href="">MenuItem</a>
-	  <a class="in_use" id="login_button" href="login.php">Login</a>
-  </div>
+  <?php include 'header.php'; ?>
   
   <div class="login_form">
       <form>
