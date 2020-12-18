@@ -10,6 +10,7 @@
 
 <body style="background-color: #000" onload="current_tab()">
   
+  <!-- Initialize the variable for highlighting current page in navbar -->
   <script> var current = "home"; </script>
   <?php include 'resources/header.php'; ?>
 
