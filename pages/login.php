@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Login</title>
   <link rel="stylesheet" href="../styles/topnav.css">
+  <link rel="stylesheet" href="../styles/login.css">
 </head>
 
 <body style="background-color: #000">
@@ -19,10 +20,8 @@
 
   <div class="login_form">
     <form>
-      
-      
-
     </form>
+    <a href="" id="register"><button type="button"> Register </button></a>
   </div>
 </body>
 
