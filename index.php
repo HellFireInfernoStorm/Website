@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="styles/home.css">
 </head>
 
-<body style="background-color: #000">
+<body style="background-color: #000" onload="current_tab()">
+  
   <script> var current = "home"; </script>
-
   <?php include 'resources/header.php'; ?>
 
   <div class="home_body">

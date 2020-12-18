@@ -1,4 +1,4 @@
-<nav class="topnav" onload="current_tab()">
+<nav class="topnav">
   <a id="home_button" href="../index.php">Home</a>
   <a href="">MenuItem</a>
   <a href="">MenuItem</a>
@@ -10,6 +10,7 @@
   function current_tab(){
       if (current == "home") {
         document.getElementById("home_button").className = "in_use";
+        document.getElementById("topic").innerHTML = "New Stuff";
       }
   }
 </script>
