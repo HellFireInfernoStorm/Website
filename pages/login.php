@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
@@ -9,13 +10,18 @@
 <body style="background-color: #000">
 
   <!-- Initialize the variable for highlighting current page in navbar -->
-  <script> var current = "login"; </script>
+  <script>
+    var current = "login";
+  </script>
+
+  <!-- Import navbar(header.php)-->
   <?php include '../resources/header.php'; ?>
-  
+
   <div class="login_form">
-      <form>
-          
-      </form>
+    <form>
+
+    </form>
   </div>
 </body>
+
 </html>
