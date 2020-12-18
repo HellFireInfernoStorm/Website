@@ -10,13 +10,7 @@
 
 <body style="background-color: #000">
 
-  <nav class="topnav">
-    <a class="in_use" href="index.php">Home</a>
-    <a href="">MenuItem</a>
-    <a href="">MenuItem</a>
-    <a href="">MenuItem</a>
-    <a href="pages/login.php" id="login_button">Login</a>
-  </nav>
+  <?php include 'resources/header.php'; ?>
 
   <div class="home_body">
     <h1 id="topic">New Arrivals</h1>
