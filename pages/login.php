@@ -8,7 +8,7 @@
 
 <body style="background-color: #000">
 
-  <?php include 'header.php'; ?>
+  <?php include '../resources/header.php'; ?>
   
   <div class="login_form">
       <form>
