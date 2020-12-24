@@ -19,7 +19,7 @@
   <h1 id="topic">Login</h1>
 
   <p>Don't have an account?</p>
-  <a href="register.php">Create an account</a>
+  <a id="register" href="register.php">Create an account</a>
 
 </body>
 </html>
