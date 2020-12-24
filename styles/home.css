@@ -12,10 +12,15 @@
   color: #00f200;
 }
 
+.home_body{
+  max-width: max-content;
+  margin: auto;
+}
+
 /*links container*/
 .home_links{
+  max-width: max-content;
   margin: auto;
-  width: 80%;
 }
 
 /* create and style boxes for links */
@@ -28,7 +33,6 @@
   background-color: white;
   padding: 75px 75px;
   margin: 25px 25px;
-  
   
   /* styles the text */
   color: black;

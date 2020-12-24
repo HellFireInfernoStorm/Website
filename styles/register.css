@@ -11,6 +11,11 @@
   color: #00f200;
 }
 
+form{
+  max-width: max-content;
+  margin: 0 auto;
+}
+
 label{
   color: #00f200;
 }
