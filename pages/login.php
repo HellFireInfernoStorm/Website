@@ -18,8 +18,8 @@
 
   <h1 id="topic">Login</h1>
 
-  <p>Don't have an account?</p>
-  <a id="register" href="register.php">Create an account</a>
+  <p id="register_text">Don't have an account?</p>
+  <a id="register_link" href="register.php">Create an account</a>
 
 </body>
 </html>

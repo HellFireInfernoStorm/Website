@@ -7,14 +7,24 @@
   text-align: center;
 }
   
-#topic:hover {
+#topic:hover{
   color: #00f200;
 }
 
-#register{
-  color: #00f200;
-}
-
-#register:hover{
+#register_text{
   color: white;
+}
+
+#register_link{
+  background-color: #00f200;
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#register_link:hover, #register_link:active{
+  background-color: white;
+  text-decoration: underline;
 }
