@@ -17,7 +17,7 @@
   <?php include '../resources/header.php'; ?>
 
   <h1 id="topic">Create a new Account</h1>
-  <form action="" method="post">
+  <form action="authenticate.php" method="post">
     
   </form>
 

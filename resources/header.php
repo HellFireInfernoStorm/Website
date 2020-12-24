@@ -3,7 +3,7 @@
     <a href="">MenuItem</a>
     <a href="">MenuItem</a>
     <a href="">MenuItem</a>
-    <a id="login_button" href="../pages/login.php">Login</a>
+    <a id="login_button" href="">Login</a>
 </nav>
 
 <script>
