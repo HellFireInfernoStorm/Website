@@ -1,5 +1,5 @@
 <nav class="topnav">
-    <a id="home_button" href="../home.php">Home</a>
+    <a id="home_button" href="../pages/home.php">Home</a>
     <a href="">MenuItem</a>
     <a href="">MenuItem</a>
     <a href="">MenuItem</a>

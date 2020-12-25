@@ -6,7 +6,7 @@
   color: white;
   text-align: center;
 }
-  
+/* styles header when you hover */
 #topic:hover{
   color: #00f200;
 }

@@ -7,15 +7,16 @@
   color: white;
   text-align: center;
 }
-
+/* styles header when you hover */
 #topic:hover {
   color: #00f200;
 }
 
 /*link containers*/
 .home_links{
-  max-width: max-content;
-  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* create and style boxes for links */
@@ -26,8 +27,8 @@
   border-width: 10px;
   border-color: #00f200;
   background-color: white;
-  padding: 75px 75px;
-  margin: 25px 25px;
+  padding: 75px;
+  margin: 25px;
   
   /* styles the text */
   color: black;
@@ -41,6 +42,6 @@
 /* styles hover over links */
 .home_links a:hover {
   color: #00f200;
-  padding: 100px 100px;
-  margin: 0px 0px;
+  padding: 100px;
+  margin: 0px;
 }
