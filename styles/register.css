@@ -19,3 +19,17 @@ form{
 label{
   color: #00f200;
 }
+
+#back_button{
+  background-color: #00f200;
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#back_button:hover, #back_button:active{
+  background-color: white;
+  text-decoration: underline;
+}

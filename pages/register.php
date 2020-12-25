@@ -19,5 +19,6 @@
     <input type="password" name="confirm_password" id="confirm_password">
   </form>
 
+  <a href="login.php" id="back_button">Back</a>
 </body>
 </html>
