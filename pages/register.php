@@ -10,7 +10,7 @@
 <body style="background-color: #000;">
 
   <h1 id="topic">Sign Up</h1>
-  <form action="../resources/new_user.php" method="post" id="register_form">
+  <form action="../resources/user.php" method="post" id="register_form">
     <label for="username">Enter a Username</label><br>
     <input type="text" name="username" id="username" required><br>
     <label for="password">Enter a Password</label><br>

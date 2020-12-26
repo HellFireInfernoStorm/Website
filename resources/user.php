@@ -1,8 +1,8 @@
 <?php
 require_once "config.php";
 
-$username = $password = $confirm_password = null;
-$username_err = $password_err = $confirm_password_err = null;
+$username = $password = $confirm_password = "";
+$username_err = $password_err = $confirm_password_err = "";
 
 if (empty(trim($_POST['username']))){
     $username_err = "Please Enter a Username";
