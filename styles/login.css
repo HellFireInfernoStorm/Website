@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+/* Center everything */
+.register{
+  display: block;
+  width: max-content;
+  margin: auto;
+}
+
+/* Style Header */
+#topic{
+  font-family: Audiowide;
+  color: white;
+  text-align: center;
+}
+/* styles header when you hover */
+#topic:hover{
+  color: #00f200;
+}
+
+#register_text{
+  color: white;
+}
+
+#register_link{
+  background-color: #00f200;
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#register_link:hover, #register_link:active{
+  background-color: white;
+  text-decoration: underline;
+}
