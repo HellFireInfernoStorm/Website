@@ -4,9 +4,9 @@
   $DB_Pass = "";
   $DB_Name = "website";
 
-  $DB = mysqli_connect($DB_Server, $DB_User, $DB_Pass, $DB_Name);
+  $link = mysqli_connect($DB_Server, $DB_User, $DB_Pass, $DB_Name);
 
-  if ($DB === false) {
+  if ($link === false) {
     die("Error : Connection Error." . mysqli_connect_error());
   }
 ?>

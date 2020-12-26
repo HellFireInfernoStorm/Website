@@ -14,7 +14,7 @@
     var current = "home";
   </script>
 
-  <?php include 'resources/header.php'; ?>
+  <?php include '../resources/header.php'; ?>
 
   <h1 id="topic">New Arrivals</h1>
   

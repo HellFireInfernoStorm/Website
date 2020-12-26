@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 
+/* Center everything */
+.register{
+  display: block;
+  width: max-content;
+  margin: auto;
+}
+
 /* Style Header */
 #topic{
   font-family: Audiowide;

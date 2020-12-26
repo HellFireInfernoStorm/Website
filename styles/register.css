@@ -20,6 +20,12 @@ label{
   color: #00f200;
 }
 
+.container{
+  display: block;
+  width: max-content;
+  margin: 10px auto;
+}
+
 #back_button{
   background-color: #00f200;
   color: black;
